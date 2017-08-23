@@ -3,6 +3,8 @@
 puts "What will today's adventure be!?"
 puts "Options: A-go yachting, B-goto a social event"
 
+p "*" * 50 
+
 option = gets.chomp.downcase
 case option
 when "go yachting"
